@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}User Settings{% endblock %}
+{% block content %}
+    <div class="container">
+        <h1 class="text-center">User Settings</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form method="POST" action="/update-password" class="mb-4">
+                    <h3 class="text-center mb-3">Update Password</h3>
+                    <div class="mb-3">
+                        <label for="current-password" class="form-label">Current Password</label>
+                        <input type="password" id="current-password" name="current_password" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="new-password" class="form-label">New Password</label>
+                        <input type="password" id="new-password" name="new_password" class="form-control" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Update Password</button>
+                    </div>
+                </form>
+
+                <form method="POST" action="/update-username" class="mb-4">
+                    <h3 class="text-center mb-3">Update Username</h3>
+                    <div class="mb-3">
+                        <label for="new-username" class="form-label">New Username</label>
+                        <input type="text" id="new-username" name="new_username" class="form-control" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Update Username</button>
+                    </div>
+                </form>
+
+                <form method="POST" action="/delete-account">
+                    <h3 class="text-center mb-3">Delete Account</h3>
+                    <div class="mb-3">
+                        <label for="confirm-password" class="form-label">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm_password" class="form-control" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-danger">Delete Account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

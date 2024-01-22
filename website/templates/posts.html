@@ -1,0 +1,11 @@
+{% extends "posts_div.html" %}
+{% block title %}{{ username }}'s Posts{% endblock %}
+{% block header %}{{ username }}'s posts{% endblock %}
+{% block footer %}
+    <div class="text-center">
+        <a href="/home" class="btn btn-primary btn-lg">Back</a>
+        {% if user.is_authenticated %}
+            <a href="/user-settings" class="btn btn-secondary btn-lg">User Settings</a>
+        {% endif %}
+    </div>
+{% endblock %}
