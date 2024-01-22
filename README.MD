@@ -38,12 +38,4 @@ Feel free to contribute to this project by opening issues or submitting pull req
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out to me at your.email@example.com.
-
-```
-
-You can customize the headings, content, and URLs based on your actual project details. Save this content into a file named `README.md` or any other suitable name, and place it in the root of your project.
-
-Remember to replace placeholders like `your-username`, `your-repo`, and `your.email@example.com` with your actual GitHub username, repository name, and contact email.
-
-Feel free to add more sections or details based on the specifics of your website and project.
+If you have any questions or suggestions, feel free to reach out to me at kussad.mohammad@gmail.com 
