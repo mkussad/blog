@@ -1,11 +1,11 @@
-# Welcome to My Website
+# Welcome to My Blog
 
 ## Introduction
 This is a simple website created using Flask, SQLAlchemy, and other technologies. Explore the various features and functionalities offered.
 
 ## Features
 - User authentication
-- Post creation and deletion
+- Post-creation and deletion
 - Commenting on posts
 - Liking posts
 - User settings and account deletion
@@ -33,9 +33,6 @@ To run this website locally, follow these steps:
 
 ## Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at kussad.mohammad@gmail.com 
